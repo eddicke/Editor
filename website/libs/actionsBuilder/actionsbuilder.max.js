@@ -2653,8 +2653,8 @@ var ActionsBuilder;
                     }
                 }
             };
-            node.rect.drag(onMove, onStart, onEnd);
-            node.text.drag(onMove, onStart, onEnd);
+            node.rect.click(onMove, onStart, onEnd);
+            node.text.click(onMove, onStart, onEnd);
         };
         // Statics
         Viewer._NODE_WIDTH = 150;
