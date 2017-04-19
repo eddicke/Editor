@@ -2647,7 +2647,7 @@ var ActionsBuilder;
                     if (action.parent !== null) {
                         // Configure drag'n'drop
                         action.parent.removeChild(action);
-                       // dragResult.action.addChild(action);
+                       dragResult.action.addChild(action);
                         _this.update();
                         _this._createActionAnimation(action);
                     }
